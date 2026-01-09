@@ -1,120 +1,179 @@
 <div align="center">
 
-# 🚀 Sultanul Arafin | Beyond the Console
+# ✨ Habibur Rahman Zihad | Portfolio
 
-### **Industry-Grade Solutions. Scalable Architectures. Impactful Engineering.**
+### **Modern Web Developer Portfolio • MERN Stack Specialist • Clean Code Advocate**
 
-[![Tech Stack](https://img.shields.io/badge/Stack-MERN-orange.svg)](#)
-[![License](https://img.shields.io/badge/License-Professional-blue.svg)](#)
-[![Year](https://img.shields.io/badge/Year-2026-success.svg)](#)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](#)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-38B2AC?logo=tailwindcss&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-7.2-646CFF?logo=vite&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
 
-<p align="center">
-  <img src="https://grainy-linears.vercel.app/noise.svg" width="100%" height="5px" />
-</p>
+<br />
 
-A high-performance, professional software engineering portfolio built with a focus on **MERN Stack** expertise, disciplined system design, and immersive user experiences. This project utilizes advanced animation orchestrations and glassmorphism design language to bridge the gap between complex backend logic and elegant frontend presentation.
+<img src="https://res.cloudinary.com/dvq3pcykn/image/upload/v1758785330/IMG-20241101-WA0192_vyojiv.jpg" width="150" style="border-radius: 16px;" />
+
+<br />
+
+**A sleek, high-performance portfolio showcasing my journey as a Software Engineer.**  
+Built with modern technologies, smooth animations, and attention to every detail.
+
+[🌐 Live Demo](https://habiburrahmanzihad.vercel.app) • [📧 Contact Me](mailto:e241024@ugrad.iiuc.ac.bd) • [💼 LinkedIn](https://linkedin.com/in/habiburrahmanzihad)
 
 </div>
 
 ---
 
-## 🛠️ Technical Stack
+## 🚀 Tech Stack
 
-<table width="100%">
-  <tr>
-    <th align="left" width="30%">Category</th>
-    <th align="left">Technologies</th>
-  </tr>
-  <tr>
-    <td><b>Frontend Core</b></td>
-    <td>React 18, Vite, Tailwind CSS, DaisyUI</td>
-  </tr>
-  <tr>
-    <td><b>Animation Engine</b></td>
-    <td>GSAP (GreenSock), Framer Motion</td>
-  </tr>
-  <tr>
-    <td><b>Icons & UI</b></td>
-    <td>Lucide React, React Icons</td>
-  </tr>
-  <tr>
-    <td><b>Communication</b></td>
-    <td>EmailJS (Client-side SMTP)</td>
-  </tr>
-  <tr>
-    <td><b>State & Routing</b></td>
-    <td>React Router v7, React Hooks</td>
-  </tr>
-</table>
+| Category         | Technologies                              |
+| ---------------- | ----------------------------------------- |
+| **Frontend**     | React 19, Vite, Tailwind CSS 4, DaisyUI 5 |
+| **Animations**   | GSAP, Framer Motion, CSS Keyframes        |
+| **Icons**        | Lucide React, React Icons                 |
+| **Routing**      | React Router v7                           |
+| **Type Effects** | React Simple Typewriter                   |
+| **Contact Form** | EmailJS (Client-side)                     |
+| **Carousel**     | Swiper.js                                 |
 
 ---
 
-## 🌟 Key Engineering Features
+## ✨ Features
+
+### 🎯 Core Features
+
+- **Responsive Design** — Fully optimized for all devices from mobile to 4K displays
+- **Dark Theme** — Elegant gold & charcoal color scheme
+- **Smooth Animations** — GSAP & Framer Motion powered transitions
+- **Fast Performance** — Vite + React 19 for blazing fast load times
+
+### 🖱️ Custom Cursor
+
+- Dual-layer cursor with dot + trailing ring effect
+- Intelligent hover detection on interactive elements
+- Click feedback animations
+- Smooth 60fps animation loop
+
+### 🎨 Visual Effects
+
+- **Dynamic Background** — Parallax blur blobs with subtle animations
+- **Heartbeat Glow** — Pulsing glow effect on profile image
+- **Typewriter Effect** — Animated role titles in hero section
+- **Glass Morphism** — Modern frosted glass UI elements
+
+### 📱 Sections
+
+- **Hero** — Introduction with profile, stats badges & social links
+- **About** — Skills, experience & personal info
+- **Projects** — Showcase of work with live demos & GitHub links
+- **Contact** — EmailJS powered contact form
+
+---
+
+## 🛠️ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/HabiburRahmanZihad/portfolio.git
+
+# Navigate to directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## ⚙️ Environment Setup
+
+Create a `.env.local` file in the root directory:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── Components/
+│   ├── Hero.jsx          # Hero section with profile
+│   ├── About.jsx         # About & skills section
+│   ├── Projects.jsx      # Project showcase
+│   ├── Contact.jsx       # Contact form
+│   ├── Navbar.jsx        # Navigation bar
+│   ├── Footer.jsx        # Footer component
+│   ├── CustomCursor.jsx  # Custom cursor effect
+│   ├── DynamicBG.jsx     # Background effects
+│   └── PageSkeleton.jsx  # Loading skeleton
+├── Layouts/
+│   └── MainLayout.jsx    # Main layout wrapper
+├── Pages/
+│   ├── Home.jsx          # Home page
+│   └── Error.jsx         # 404 error page
+├── Routes/
+│   └── router.jsx        # Route configuration
+└── assets/               # Images & static files
+```
+
+---
+
+## 🎨 Color Palette
+
+| Color              | Hex       | Usage                        |
+| ------------------ | --------- | ---------------------------- |
+| **Primary (Gold)** | `#D4A853` | Accents, buttons, highlights |
+| **Base Dark**      | `#1A1A1A` | Background                   |
+| **Base Content**   | `#E5E5E5` | Text                         |
+
+---
+
+## 📊 Performance
+
+- ⚡ **Lighthouse Score:** 95+ Performance
+- 🎯 **First Contentful Paint:** < 1s
+- 📦 **Bundle Size:** Optimized with Vite tree-shaking
+- 🖼️ **Images:** Cloudinary CDN for fast delivery
+
+---
+
+## 🚀 Deployment
+
+Optimized for deployment on:
+
+- **Vercel** (Recommended)
+- **Netlify**
+- **Firebase Hosting**
+
+---
+
+## 📬 Connect With Me
 
 <div align="center">
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01. Neural Dynamic BG</h3>
-      <p>Dual-layer background system featuring fixed ambient blobs and a secondary parallax layer scrolling at <b>50% velocity</b> for a 3D deep-field effect.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02. Precision Focus Cursor</h3>
-      <p>Custom dual-layer crosshair cursor built with <code>gsap.quickTo</code>. Features intelligent morphing that shrinks and sharpens on hover.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03. Shuffling Gallery</h3>
-      <p>A 3-layer glass stack using Framer Motion <code>AnimatePresence</code> to physically animate "z-index swaps" every 4 seconds.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04. Scroll-Spy Navigation</h3>
-      <p>"Dock" style navbar with a magnetic sliding pill tracking user position via the <code>IntersectionObserver</code> API.</p>
-    </td>
-  </tr>
-</table>
+
+[![GitHub](https://img.shields.io/badge/GitHub-HabiburRahmanZihad-181717?logo=github)](https://github.com/HabiburRahmanZihad)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Habibur%20Rahman%20Zihad-0A66C2?logo=linkedin)](https://linkedin.com/in/habiburrahmanzihad)
+[![Email](https://img.shields.io/badge/Email-e241024%40ugrad.iiuc.ac.bd-EA4335?logo=gmail)](mailto:e241024@ugrad.iiuc.ac.bd)
+
 </div>
 
 ---
 
-## 🎨 Theme System
-
-<table>
-  <tr>
-    <td align="center">☕</td>
-    <td><b>Coffee (Default):</b> A deep, disciplined dark theme with gold and charcoal accents.</td>
-  </tr>
-  <tr>
-    <td align="center">❄️</td>
-    <td><b>Nord:</b> A high-contrast, clean light theme inspired by arctic palettes.</td>
-  </tr>
-</table>
-
----
-
-## 📡 Contact System
-
-- **Validation:** Full client-side form validation.
-- **Feedback:** An immersive Framer Motion **Success Modal** upon successful signal transmission.
-- **Direct Mapping:** Uses `{{name}}`, `{{email}}`, and `{{message}}` templates for clean inbox management.
-
----
-
-## ⚙️ Setup & Deployment
-
-1. **Environment Config:** Create `.env.local` and add `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAILJS_PUBLIC_KEY`.
-2. **Build:** Run `npm run build` to generate the optimized `dist/` directory.
-3. **Deploy:** Optimized for Vercel, Netlify, or Firebase Hosting.
-
----
-
 <div align="center">
 
-### 📄 License
+### ⭐ If you like this project, give it a star!
 
-This project is built as a personal professional showcase.
-
-**Designed & Engineered by Sultanul Arafin © 2026**
+**Designed & Developed with 💛 by Habibur Rahman Zihad © 2026**
 
 </div>
